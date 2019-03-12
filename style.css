@@ -1,0 +1,91 @@
+body{
+  background-color: black; 
+  font-size: 14px; 
+  font-weight: 400; 
+  font-family: 'Coda', cursive;
+
+
+}
+.container{
+  max-width: 500px; 
+  margin: 0 auto; 
+  text-align: center; 
+  margin-top: 40px; 
+  background-color: teal; 
+  padding: 2px 40px 180px 40px; 
+}
+
+h1{
+  font-size: 48px; 
+  color: white; 
+  font-weight: 400; 
+  text-decoration: underline; 
+  font-family: 'Faster One', cursive;
+}
+
+ul{
+  min-width: 75%; 
+  margin: 0 auto;  
+  padding: 0; 
+  height: auto; 
+}
+
+
+input {
+  margin: 0 auto;
+  margin-bottom: 15px; 
+  border: none;
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center; 
+  outline: 0; 
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 2px 12px 20px;
+  background: rgb(241, 235, 235);
+  font-size: 100%;
+  transition: 0.2s;
+  text-align: left;
+  text-transform: uppercase;
+  list-style: none;  
+}
+
+ul li:nth-child(odd){
+  background-color: white; 
+  color: black; 
+}
+
+
+button{
+  margin: 8px; 
+  margin-top: 15px;  
+  padding: 10px 15px; 
+  font-size: 17px; 
+  background-color: white; 
+  font-family: 'Coda', cursive;
+}
+ 
+.delete-item, 
+.icon-trash{
+  float: left; 
+  padding-right: 15px; 
+  color: #E00000; 
+}
+
+
+.icon{
+  padding: 5px; 
+  font-size: 20px; 
+}
+
+.fa-plus-square{
+  color: teal; 
+}
+
+.fa-minus-square{
+  color: #E00000; 
+}
